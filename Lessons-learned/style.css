@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+    padding: 5px;
+    border: 3px solid rgb(0, 2, 0);
+    top: 0;
+    position: fixed;
+    background-color: #2fc18c;
+    color: white;
+}
+
+#nome {
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    background-color: #2fc18c;
+}
+
+#minha_foto {
+    height: 300px;
+    margin-top: 5px;
+}
+
+aside {
+    font-family: monospace;
+    font-size: 25px;
+    margin-left: 350px;
+    margin-top: -250px;
+
+}
+
+#licoes_aprendidas {
+    background-color: rgb(243, 240, 240);
+    margin-top: 200px;
+}
+
+article {
+    margin-top: 10px;
+}
+
+#licoes_a_aprender {
+    background-color: rgb(243, 240, 240);
+    margin-top: 10px;
+}
+
+footer {
+    margin: 1px;
+    padding: 15px;
+    color: white;
+    background-color: #333;
+}
+
+footer ul li {
+    display: inline;
+    padding: 15px;
+    margin-left: 50px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    cursor: pointer;
+}
